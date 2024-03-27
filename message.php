@@ -2,9 +2,9 @@
 session_start(); // Start the session at the beginning of your script
 
 // Include PHPMailer
-require 'PHPMailer/src/PHPMailer.php';
-require 'PHPMailer/src/SMTP.php';
-require 'PHPMailer/src/Exception.php';
+require 'Mailer/src/PHPMailer.php';
+require 'Mailer/src/SMTP.php';
+require 'Mailer/src/Exception.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
