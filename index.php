@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-gray-100">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="data:image/png;base64,iVBORw0K..."> <!-- Icon data -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+    <nav class="bg-white shadow-md py-4 px-6 flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-gray-800">Madalo Stanford Perenje</h1>
+        <ul class="flex space-x-4">
+            <li><a href="about.php" class="text-gray-600 hover:text-gray-800 transition duration-300">About Me</a></li>
+        </ul>
+    </nav>
+    <main class="flex-grow">
+        <section class="bg-gradient-to-r from-purple-500 to-indigo-600 text-white py-16 animate__animated animate__fadeIn animate__delay-1s" id="landing-page">
+            <div class="max-w-4xl mx-auto px-4">
+                <h1 class="text-4xl font-bold mb-4">Hey there &#x1F44B</h1>
+                <div class="flex items-center">
+                    <img src="1.jpg" alt="Your Name" class="w-32 h-32 rounded-full mr-8">
+                    <div class="intro">
+                        <p class="text-lg leading-relaxed"><span class="typewriter"></span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-white py-16" id="improve-stack-section">
+            <div class="max-w-4xl mx-auto px-4">
+                <div class="flex flex-wrap justify-center -m-4">
+                    <div class="card m-4 bg-gray-100 p-6 rounded-lg shadow-md transition duration-300 hover:shadow-lg animate__animated animate__fadeInUp">
+                        <img src="https://th.bing.com/th/id/R.6c8f0a0e377cfa70efcd35ff52893b17?rik=iqhl8JD0f9LLpA&pid=ImgRaw&r=0" alt="HTML" class="w-16 h-16 rounded-full shadow-md">
+                        <h2 class="text-xl font-bold mb-2 mt-4">HTML</h2>
+                        <p class="text-gray-600 mb-4">The backbone of web development.</p>
+                    </div>
+                    <div class="card m-4 bg-gray-100 p-6 rounded-lg shadow-md transition duration-300 hover:shadow-lg animate__animated animate__fadeInUp animate__delay-1s">
+                        <img src="https://th.bing.com/th/id/OIP.xhnzhHcorvOTDzjLVg0LAwAAAA?rs=1&pid=ImgDetMain" alt="CSS" class="w-16 h-16 rounded-full shadow-md">
+                        <h2 class="text-xl font-bold mb-2 mt-4">CSS</h2>
+                        <p class="text-gray-600 mb-4">Styling the web with elegance.</p>
+                    </div>
+                    <div class="card m-4 bg-gray-100 p-6 rounded-lg shadow-md transition duration-300 hover:shadow-lg animate__animated animate__fadeInUp animate__delay-2s">
+                        <img src="https://th.bing.com/th/id/R.03cbde693a391ec3eaec7a535a6b4231?rik=658ugnelBpDDoA&pid=ImgRaw&r=0" alt="JavaScript" class="w-16 h-16 rounded-full shadow-md">
+                        <h2 class="text-xl font-bold mb-2 mt-4">JavaScript</h2>
+                        <p class="text-gray-600 mb-4">Adding interactivity and life to websites.</p>
+                    </div>
+                    <div class="card m-4 bg-gray-100 p-6 rounded-lg shadow-md transition duration-300 hover:shadow-lg animate__animated animate__fadeInUp animate__delay-3s">
+                        <img src="https://th.bing.com/th/id/R.17174b3ddd6945e718e989a5e9088330?rik=YRL66G0wFoXJbQ&pid=ImgRaw&r=0" alt="PHP" class="w-16 h-16 rounded-full shadow-md">
+                        <h2 class="text-xl font-bold mb-2 mt-4">PHP</h2>
+                        <p class="text-gray-600 mb-4">Server-side scripting for dynamic websites.</p>
+                    </div>
+                    <div class="card m-4 bg-gray-100 p-6 rounded-lg shadow-md transition duration-300 hover:shadow-lg animate__animated animate__fadeInUp animate__delay-4s">
+                        <img src="https://th.bing.com/th/id/R.94821cfecbda59d19d109b8493b4c196?rik=kIMd73UgNA%2b0Tw&pid=ImgRaw&r=0" alt="MySQL" class="w-16 h-16 rounded-full shadow-md">
+                        <h2 class="text-xl font-bold mb-2 mt-4">MySQL</h2>
+                        <p class="text-gray-600 mb-4">Relational database management system.</p>
+                    </div>
+                    <div class="card m-4 bg-gray-100 p-6 rounded-lg shadow-md transition duration-300 hover:shadow-lg animate__animated animate__fadeInUp animate__delay-5s">
+                        <img src="https://th.bing.com/th/id/R.9c83821480f50c983788c7c002c72944?rik=9bElGknv2XP5KA&pid=ImgRaw&r=0" alt="Node.js" class="w-16 h-16 rounded-full shadow-md">
+                        <h2 class="text-xl font-bold mb-2 mt-4">Node.js</h2>
+                        <p class="text-gray-600 mb-4">JavaScript runtime for server-side scripting.</p>
+                    </div>
+                    <div class="card m-4 bg-gray-100 p-6 rounded-lg shadow-md transition duration-300 hover:shadow-lg animate__animated animate__fadeInUp animate__delay-6s">
+                        <img src="https://th.bing.com/th/id/R.f13e2176f0dc88124dd007db7f1ca4ff?rik=aOcwVSVYyllOsQ&pid=ImgRaw&r=0" alt="MongoDB" class="w-16 h-16 rounded-full shadow-md">
+                        <h2 class="text-xl font-bold mb-2 mt-4">MongoDB</h2>
+                        <p class="text-gray-600 mb-4">NoSQL database for modern applications.</p>
+                    </div>
+                    <div class="card m-4 bg-gray-100 p-6 rounded-lg shadow-md transition duration-300 hover:shadow-lg animate__animated animate__fadeInUp animate__delay-7s">
+                        <img src="https://th.bing.com/th/id/R.5e6d3810c55196b942def4ad8bf30761?rik=GtQ70RfJY6ijZw&pid=ImgRaw&r=0" alt="Python" class="w-16 h-16 rounded-full shadow-md">
+                        <h2 class="text-xl font-bold mb-2 mt-4">Python</h2>
+                        <p class="text-gray-600 mb-4">Powerful and versatile programming language.</p>
+                    </div>
+                    <div class="card m-4 bg-gray-100 p-6 rounded-lg shadow-md transition duration-300 hover:shadow-lg animate__animated animate__fadeInUp animate__delay-8s">
+                        <img src="data:image/png;base64,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" alt="Android" class="w-16 h-16 rounded-full shadow-md">
+                        <h2 class="text-xl font-bold mb-2 mt-4">Android App Development</h2>
+                        <p class="text-gray-600 mb-4">Building mobile apps for Android devices.</p>
+                    </div>
+                    <div class="card m-4 bg-gray-100 p-6 rounded-lg shadow-md transition duration-300 hover:shadow-lg animate__animated animate__fadeInUp animate__delay-9s">
+                        <img src="data:image/png;base64,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" alt="Java" class="w-16 h-16 rounded-full shadow-md">
+                        <h2 class="text-xl font-bold mb-2 mt-4">Java</h2>
+                        <p class="text-gray-600 mb-4">Versatile language for enterprise applications.</p>
+                    </div>
+                </div>
+                <div class="text-center mt-8">
+                <h1 class="text-4xl font-bold mb-4 mt-8">Improve your stack by hiring me</h1>
+                <p class="text-lg text-gray-600 mb-8">I am a <span class="highlight font-bold text-indigo-600">Web Developer</span> with a passion for <span class="highlight font-bold text-indigo-600">backend Development</span> and <span class="highlight font-bold text-indigo-600">Logic that works</span></p>
+            </div>
+        </section>
+        <section class="bg-gray-100 py-16" id="improve-stack-section">
+            <div class="max-w-4xl mx-auto px-4">
+                <h1 class="text-4xl font-bold mb-4">Programming is my passion</h1>
+                <p class="text-lg text-gray-600 mb-8">I don't only do Web dev, I also know C, C++ and C#</p>
+                <div class="flex flex-wrap justify-center -m-4">
+                <div class="card m-4 bg-white p-6 rounded-lg shadow-md transition duration-300 hover:shadow-lg animate__animated animate__fadeInUp">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnLEJnMlMzBBBj7cfqgMXVxDnDfFjXN2OTEA&usqp=CAU" alt="C" class="w-16 h-16 rounded-full shadow-md">
+                        <h2 class="text-xl font-bold mb-2 mt-4">C</h2>
+                        <p class="text-gray-600 mb-4">The foundation of low-level programming.</p>
+                    </div>
+                    <div class="card m-4 bg-white p-6 rounded-lg shadow-md transition duration-300 hover:shadow-lg animate__animated animate__fadeInUp animate__delay-1s">
+                        <img src="https://th.bing.com/th/id/OIP.r-TxwAzO1IV1mF1n6CGOuAAAAA?rs=1&pid=ImgDetMain" alt="C++" class="w-16 h-16 rounded-full shadow-md">
+                        <h2 class="text-xl font-bold mb-2 mt-4">C++</h2>
+                        <p class="text-gray-600 mb-4">Object-oriented programming with power.</p>
+                    </div>
+                    <div class="card m-4 bg-white p-6 rounded-lg shadow-md transition duration-300 hover:shadow-lg animate__animated animate__fadeInUp animate__delay-2s">
+                        <img src="https://th.bing.com/th/id/R.1e26472823402b649c9b187d0c5cc876?rik=DyW5g1SPHG1jWg&riu=http%3a%2f%2ficons.iconarchive.com%2ficons%2ficons8%2fwindows-8%2f256%2fFiles-Cs-icon.png&ehk=AAEmMdYNsf7szTTQ%2bTXPm0WvMXgk0DnKD7%2bNwr2ZlPY%3d&risl=&pid=ImgRaw&r=0" alt="C#" class="w-16 h-16 rounded-full shadow-md">
+                        <h2 class="text-xl font-bold mb-2 mt-4">C#</h2>
+                        <p class="text-gray-600 mb-4">Microsoft's powerful language for .NET.</p>
+                    </div>
+                </div>
+            </div>
+            <script>
+                // Get the section element
+const improveStackSection = document.getElementById('improve-stack-section');
+// Get all the card elements within the section
+const cards = improveStackSection.querySelectorAll('.card');
+
+// Create a new Intersection Observer instance
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      // Add the animation class when the section is in view
+      entry.target.classList.add('animate__fadeIndown');
+
+      // Apply a delay to each card based on its index
+      cards.forEach((card, index) => {
+        card.style.animationDelay = `${index * 0.7}s`;
+      });
+    }
+  });
+});
+
+// Observe the section element
+observer.observe(improveStackSection);
+                </script>
+        </section>
+        <section class="bg-gradient-to-r from-green-400 to-blue-500 text-white py-16" id="confidence">
+            <div class="max-w-4xl mx-auto px-4">
+                <div class="card p-6 rounded-lg shadow-md bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg animate__animated animate__fadeInUp">
+                    <p class="text-2xl font-bold mb-2">My confidence is in my work</p>
+                    <p class="text-xl">Rest assured, you are getting quality</p>
+                </div>
+            </div>
+        </section>
+        <section class="bg-white py-16" id="projects">
+            <div class="max-w-4xl mx-auto px-4">
+                <h1 class="text-4xl font-bold mb-8">Featured Projects</h1>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="card bg-gray-100 p-6 rounded-lg shadow-md transition duration-300 hover:shadow-lg animate__animated animate__fadeInUp">
+                        <img src="mada.png" alt="Project 1" class="w-full mb-4 rounded-md">
+                        <h2 class="text-xl font-bold mb-2">Mada store</h2>
+                        <p class="text-gray-600 mb-4">A powerfull web store built in javascript that integrates paypal as its payment system with automatic currency conversion.</p>
+                        <a href="#" id="link1" class="text-indigo-600 hover:text-indigo-800 font-bold">Learn More</a>
+                    </div>
+                    <div class="card bg-gray-100 p-6 rounded-lg shadow-md transition duration-300 hover:shadow-lg animate__animated animate__fadeInUp animate__delay-1s">
+                        <img src="icon.ico" alt="Project 2" class="w-full mb-4 rounded-md">
+                        <h2 class="text-xl font-bold mb-2">Project 2</h2>
+                        <p class="text-gray-600 mb-4">Byteburst a powerful and user friendly online sharing and video conversion web app that integrates usability and beautiful ui.</p>
+                        <a href="https://byteburst.tech" class="text-indigo-600 hover:text-indigo-800 font-bold" >Learn More</a>
+                    </div>
+                    <div class="card bg-gray-100 p-6 rounded-lg shadow-md transition duration-300 hover:shadow-lg animate__animated animate__fadeInUp animate__delay-2s">
+                        <img src="m.png" alt="Project 3" class="w-full mb-4 rounded-md">
+                        <h2 class="text-xl font-bold mb-2">Project 3</h2>
+                        <p class="text-gray-600 mb-4">Predictor, a powerful machine learning model for predictions, built in python.</p>
+                        <a href="https://github.com/ComradeZeusman/Predicitive_model" class="text-indigo-600 hover:text-indigo-800 font-bold">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <script>
+                const link1 = document.getElementById('link1');
+                link1.addEventListener('click', function() {
+                    alert('Not available at the moment.');
+                });
+                </script>
+        </section>
+        <section class="bg-gray-100 py-16" id="contact-me">
+            <div class="max-w-4xl mx-auto px-4">
+                <h1 class="text-4xl font-bold mb-8">Get in Touch</h1>
+                <form method="post" action="message.php">
+                    <div class="mb-4">
+                        <label class="block text-gray-700 font-bold mb-2" for="name">
+                            Name
+                        </label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" name="name" type="text" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 font-bold mb-2" for="email">
+                            Email
+                        </label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" name="email" type="email" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 font-bold mb-2" for="message">
+                            Message
+                        </label>
+                        <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" name="message" rows="5" placeholder="Enter your message"></textarea>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <button class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-gray-800 text-white py-4 px-6 mt-auto">
+        <div class="max-w-4xl mx-auto flex justify-between items-center">
+            <p>&copy; 2023 Madalo Stanford Perenje</p>
+            <div class="flex space-x-4">
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                    <i class="fab fa-twitter fa-2x">Facebook</i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                    <i class="fab fa-linkedin fa-2x">Twitter</i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                    <i class="fab fa-github fa-2x">Github</i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+        const typewriter = document.querySelector('.typewriter');
+        const text = "I'm a passionate software developer dedicated to crafting intuitive solutions that elevate businesses. With a knack for coding and a love for problem-solving, I specialize in creating bespoke software tailored to meet unique needs.";
+        let index = 0;
+
+        function type() {
+            if (index < text.length) {
+                typewriter.innerHTML += text.charAt(index);
+                index++;
+                setTimeout(type, 20); // Adjust the typing speed by changing the delay (in milliseconds)
+            }
+        }
+
+        type();
+    </script>
+</html>
