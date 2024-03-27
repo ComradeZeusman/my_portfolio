@@ -112,7 +112,7 @@
                     <div class="card m-4 bg-white p-6 rounded-lg shadow-md transition duration-300 hover:shadow-lg animate__animated animate__fadeInUp animate__delay-2s">
                         <img src="https://th.bing.com/th/id/R.1e26472823402b649c9b187d0c5cc876?rik=DyW5g1SPHG1jWg&riu=http%3a%2f%2ficons.iconarchive.com%2ficons%2ficons8%2fwindows-8%2f256%2fFiles-Cs-icon.png&ehk=AAEmMdYNsf7szTTQ%2bTXPm0WvMXgk0DnKD7%2bNwr2ZlPY%3d&risl=&pid=ImgRaw&r=0" alt="C#" class="w-16 h-16 rounded-full shadow-md">
                         <h2 class="text-xl font-bold mb-2 mt-4">C#</h2>
-                        <p class="text-gray-600 mb-4">Microsoft's powerful language for .NET.</p>
+                        <p class="text-gray-600 mb-4">Microsoft's powerful language for .NET</p>
                     </div>
                 </div>
             </div>
